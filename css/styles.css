@@ -563,7 +563,7 @@ body, input, select, textarea, button {
   .products__item {
     margin-bottom: 3em;
     font-size: 1em;
-    min-height: 310px;
+    min-height: 330px;
   }
 }
 
@@ -611,7 +611,6 @@ body, input, select, textarea, button {
 
 .products__item-image-container img {
   max-width: none;
-  width: 25.5%;
 }
 
 .products__item-title {
@@ -634,13 +633,13 @@ body, input, select, textarea, button {
 
 .products__item-li {
   display: inline;
-  padding: 0 5px;
   list-style: none;
 }
 
 .products__item-li::before {
   content: " \2022";
   margin-right: 0.2em;
+  padding: 0 2px;
 }
 
 .products__item-li a {
