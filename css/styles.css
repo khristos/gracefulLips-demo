@@ -257,9 +257,9 @@ body, input, select, textarea, button {
 
 @media (min-width: 48em) {
   .footer-module__icon {
-    width: 3.6875rem;
-    height: 3.6875rem;
-    font-size: 2.25em;
+    width: 2.75rem;
+    height: 2.75rem;
+    font-size: 2em;
   }
 }
 
@@ -563,7 +563,7 @@ body, input, select, textarea, button {
   .products__item {
     margin-bottom: 3em;
     font-size: 1em;
-    min-height: 330px;
+    min-height: 333px;
   }
 }
 
