@@ -257,15 +257,15 @@ body, input, select, textarea, button {
 
 @media (min-width: 48em) {
   .footer-module__icon {
-    width: 2.75rem;
-    height: 2.75rem;
-    font-size: 2em;
+    width: 2.0625rem;
+    height: 2.0625rem;
+    font-size: 1.625em;
   }
 }
 
 .footer-module__content {
   color: #4d4d4d;
-  margin-left: 1em;
+  margin-left: .875em;
 }
 
 .footer-module__content a {
@@ -280,7 +280,7 @@ body, input, select, textarea, button {
 .footer-module__title {
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 1em;
+  margin-bottom: .875em;
   font-size: 1em;
 }
 
