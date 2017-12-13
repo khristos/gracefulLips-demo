@@ -161,10 +161,6 @@ body, input, select, textarea, button {
   padding: 0 1.25em;
 }
 
-.section p {
-  margin-bottom: .5em;
-}
-
 @media (min-width: 48em) {
   .section {
     margin-bottom: 2em;
@@ -204,6 +200,10 @@ body, input, select, textarea, button {
   text-align: center;
   font-size: 0.875em;
   margin-bottom: 1.5rem;
+}
+
+.section__intro-text p {
+  margin-bottom: .5em;
 }
 
 @media (min-width: 48em) {
