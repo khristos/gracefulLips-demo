@@ -161,6 +161,10 @@ body, input, select, textarea, button {
   padding: 0 1.25em;
 }
 
+.section p {
+  margin-bottom: .5em;
+}
+
 @media (min-width: 48em) {
   .section {
     margin-bottom: 2em;
@@ -224,6 +228,7 @@ body, input, select, textarea, button {
 .footer-module {
   margin-bottom: 3em;
   font-size: 0.875em;
+  min-height: 5em;
 }
 
 .footer-module__icon, .footer-module__content {
@@ -253,6 +258,10 @@ body, input, select, textarea, button {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.footer-module__icon a {
+  color: inherit;
 }
 
 @media (min-width: 48em) {
