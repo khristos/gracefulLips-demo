@@ -69,6 +69,16 @@ body, input, select, textarea, button {
   font-size: 100%;
 }
 
+.page-header__logo {
+  float: none;
+  margin: 1em auto;
+  width: 16em;
+}
+
+.page-header__logo a {
+  display: block;
+}
+
 .page-nav {
   background: #15263e;
   color: #FFF;
@@ -78,7 +88,7 @@ body, input, select, textarea, button {
 
 @media (min-width: 48em) {
   .page-nav {
-    padding: 1.5em;
+    padding: 1em;
   }
 }
 
@@ -121,7 +131,7 @@ body, input, select, textarea, button {
 @media (min-width: 48em) {
   .page-nav__item {
     font-size: 0.875em;
-    padding: 1em 2em;
+    padding: .25em 1em .15em 1em;
   }
 }
 

@@ -15,36 +15,41 @@
 <body>
 	<div class="page">
 		<header class="page-header">
-			<div class="page-header__primary">
-			<nav class="page-nav">
-				<span class="page-nav__hamburger">
-					<i class="fa fa-bars" aria-label="Menu"></i>
-				</span>
-				<ul class="page-nav__ul">
-					<li class="page-nav__li">
-						<a href="#about" class="page-nav__item">
-							About
-						</a>
-					</li>
-					<li class="page-nav__li">
-						<a href="#products" class="page-nav__item">
-							Our Products
-						</a>
-					</li>
-					<li class="page-nav__li">
-						<a href="#shop" class="page-nav__item">
-							Shop
-						</a>
-					</li>
-					<li class="page-nav__li">
-						<a href="#contact" class="page-nav__item">
-							Contact Me
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</div> <!-- /.page-header__primary> -->
-		</header>
+			<div class="site-width ma">
+				<figure class="page-header__logo" id="logo">
+					<a href="/" title="Return to Home Page">
+						<img src="./images/logo.png" alt="GracefulLips logo" />
+					</a>
+				</figure>
+			</div>
+		</header> <!-- /header -->
+		<nav class="page-nav" aria-label="Main Navigation">
+			<span class="page-nav__hamburger">
+				<i class="fa fa-bars" aria-label="Menu"></i>
+			</span>
+			<ul class="page-nav__ul">
+				<li class="page-nav__li">
+					<a href="#about" class="page-nav__item">
+						About
+					</a>
+				</li>
+				<li class="page-nav__li">
+					<a href="#products" class="page-nav__item">
+						Our Products
+					</a>
+				</li>
+				<li class="page-nav__li">
+					<a href="#shop" class="page-nav__item">
+						Shop
+					</a>
+				</li>
+				<li class="page-nav__li">
+					<a href="#contact" class="page-nav__item">
+						Contact Me
+					</a>
+				</li>
+			</ul>
+		</nav>
 		<section class="welcome section">
 			<h1 class="welcome__title">
 				Beauty
@@ -268,7 +273,7 @@
 
 			</div> <!-- /.contact__wrapper -->
 		</section> <!-- /.contact -->
-		<footer class="page-footer">
+		<footer class="page-footer" role="contentinfo">
 			<div class="site-width ma">
 				<div class="grid">
 					<div class="footer-module footer-module--email grid-xs--12 grid-md--6 grid-lg--4">
@@ -310,7 +315,7 @@
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	ga('create', 'UA-61026110-2xxx', 'auto');
+	ga('create', 'UA-abc-xyz', 'auto');
 	ga('send', 'pageview');
 </script>
 
